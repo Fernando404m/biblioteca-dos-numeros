@@ -4,6 +4,9 @@ import Calculator from './calculator/calculator'
 import SimpleInte from './financial_ed/simple_interest'
 import CompoundInte from './financial_ed/comp_interest'
 import Rule72 from './financial_ed/rule_72'
+import Pythagorean from './trigonometry/pythagorean'
+import Radian from './trigonometry/radian'
+import SinCosTan from './trigonometry/sincostan'
 
 function App() {
 
@@ -25,19 +28,20 @@ function App() {
 
   // other
   let edFinanceira = [<SimpleInte />, <CompoundInte />, <Rule72 />]
-  let trigonometry = []
+  let trigonometry = [<Pythagorean />, <Radian />, <SinCosTan />]
   let probability = []
 
   return (
     <>
       <div className='main-container'>
         <div>
+          <section className='trigonometry top-formula-containers'>
+            <h2>trigonometria</h2>
+            {trigonometry}
+          </section>
           <section className='financial-ed top-formula-containers'>
             <h2>educação financeira</h2>
             {edFinanceira}
-          </section>
-          <section className='trigonometry top-formula-containers'>
-            {trigonometry}
           </section>
           <section className='probability top-formula-containers'>
             {probability}
