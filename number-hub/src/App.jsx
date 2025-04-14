@@ -1,9 +1,13 @@
 import './App.css'
 import { useState } from 'react'
+
 import Calculator from './calculator/calculator'
+
 import SimpleInte from './financial_ed/simple_interest'
 import CompoundInte from './financial_ed/comp_interest'
+import CompInteRegContr from './financial_ed/Comp_interest_regular_contr'
 import Rule72 from './financial_ed/rule_72'
+
 import Pythagorean from './trigonometry/pythagorean'
 import Radian from './trigonometry/radian'
 import SinCosTan from './trigonometry/sincostan'
@@ -27,8 +31,8 @@ function App() {
 
 
   // other
-  let edFinanceira = [<SimpleInte />, <CompoundInte />, <Rule72 />]
-  let trigonometry = [<Pythagorean />, <Radian />, <SinCosTan />]
+  let edFinanceira = [<SimpleInte key={"simpleinte"}/>, <CompoundInte key={"compoundinte"}/>, <Rule72 key={"rule72"}/>, <CompInteRegContr key={"compinteregcontr"}/>]
+  let trigonometry = [<Pythagorean key={"pythagorean"}/>, <Radian key={"radian"}/>, <SinCosTan key={"sincostan"}/>]
   let probability = []
 
   return (

@@ -65,6 +65,7 @@ input[type="number"] {
     padding: 3px 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .formula-container h3 span {
     cursor: pointer;
