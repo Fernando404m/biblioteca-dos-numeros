@@ -39,7 +39,7 @@ function Pythagorean() {
 
     return (
         <div className="formula-container">
-            <h3>teorema de pitagoras<span onClick={() => {showFormula()}} id="arrow-pythag" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
+            <h3>Teorema de pitagoras<span onClick={() => {showFormula()}} id="arrow-pythag" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
             <div className="formula-content hidden" id="content-pythag">
                 <strong>H^2 = c1^2 × c2^2</strong>
                 <ul>

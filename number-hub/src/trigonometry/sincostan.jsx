@@ -35,7 +35,7 @@ function SinCosTan() {
 
     return (
         <div className="formula-container">
-            <h3>seno<span onClick={() => {showFormula()}} id="arrow-sct" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
+            <h3>Seno<span onClick={() => {showFormula()}} id="arrow-sct" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
             <div className="formula-content hidden" id="content-sct">
                 <strong>sin() = co/h</strong>
                 <ul>

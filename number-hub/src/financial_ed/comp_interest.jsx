@@ -43,7 +43,7 @@ function CompoundInte() {
 
     return (
         <div className="formula-container">
-            <h3>juros compostos<span onClick={() => {showFormula()}} id="arrow-comp-inte" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
+            <h3>Juros compostos<span onClick={() => {showFormula()}} id="arrow-comp-inte" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
             <div className="formula-content hidden" id="content-comp-inte">
                 <strong>M = c × (1 + i)^t</strong>
                 <ul>

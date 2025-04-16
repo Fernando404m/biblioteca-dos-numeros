@@ -40,6 +40,9 @@ function Calculator() {
                 initialValue = iten
             }else if (typeof iten == "number") {
                 switch (operator) {
+                    case "%":
+                        initialValue *= iten / 100
+                        break;
                     case "*":
                         initialValue *= iten
                         break;
@@ -86,9 +89,10 @@ function Calculator() {
                 <button onClick={() => appendNum(1)} className="calc-btn">1</button>
                 <button onClick={() => appendNum(2)} className="calc-btn">2</button>
                 <button onClick={() => appendNum(3)} className="calc-btn">3</button>
-                <button onClick={() => showResults()} className="calc-btn enter">=</button>
+                <button onClick={() => action("%")} className="calc-btn">%</button>
                 <button onClick={() => appendNum(0)} className="calc-btn zero">0</button>
                 <button onClick={() => appendNum(".")} className="calc-btn">,</button>
+                <button onClick={() => showResults()} className="calc-btn enter">=</button>
             </div>
         </div>
     )

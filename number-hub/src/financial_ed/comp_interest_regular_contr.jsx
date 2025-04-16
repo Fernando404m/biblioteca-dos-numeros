@@ -50,7 +50,7 @@ function CompInteRegContr() {
 
     return (
         <div className="formula-container">
-            <h3>Compound interest with regular contributions<span onClick={() => {showFormula()}} id="arrow-comp-inte-reg-contr" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
+            <h3>Juros compostos com aportos regulares<span onClick={() => {showFormula()}} id="arrow-comp-inte-reg-contr" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
             <div className="formula-content hidden" id="content-comp-inte-reg-contr">
                 <strong>M = P × (1 + i)^t <br/> + <br/> A × (((1+i)^t − 1) / i)</strong>
                 <ul>

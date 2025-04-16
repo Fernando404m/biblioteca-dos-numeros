@@ -43,7 +43,7 @@ function SimpleInte() {
 
     return (
         <div className="formula-container">
-            <h3>juros simples<span onClick={() => {showFormula()}} id="arrow-simp-inte" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
+            <h3>Juros simples<span onClick={() => {showFormula()}} id="arrow-simp-inte" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
             <div className="formula-content hidden" id="content-simp-inte">
                 <strong>J = c × i × t</strong>
                 <ul>

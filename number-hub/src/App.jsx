@@ -38,13 +38,17 @@ function App() {
   return (
     <>
       <div className='main-container'>
+        <section className='introduction'>
+          <h1>Introdução</h1>
+          <p>Numbers-hub é um projeto que armazena equações e formulas, para ajudar o usuario a entender e/ou obter resultados praticos e simplificados.</p>
+        </section>
         <div>
           <section className='trigonometry top-formula-containers'>
-            <h2>trigonometria</h2>
+            <h2>Trigonometria</h2>
             {trigonometry}
           </section>
           <section className='financial-ed top-formula-containers'>
-            <h2>educação financeira</h2>
+            <h2>Educação financeira</h2>
             {edFinanceira}
           </section>
           <section className='probability top-formula-containers'>

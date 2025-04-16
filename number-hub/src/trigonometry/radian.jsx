@@ -35,7 +35,7 @@ function Radian() {
 
     return (
         <div className="formula-container">
-            <h3>radianos<span onClick={() => {showFormula()}} id="arrow-radian" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
+            <h3>Radianos<span onClick={() => {showFormula()}} id="arrow-radian" className="material-symbols-outlined">{arrowDown ? "arrow_drop_down" : "arrow_drop_up"}</span></h3>
             <div className="formula-content hidden" id="content-radian">
                 <strong>R = g × (π / 180)</strong>
                 <ul>
